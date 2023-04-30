@@ -21,7 +21,7 @@ ln -s libclntsh.so.21.1 libclntsh.so
 ln -s libocci.so.21.1 libocci.so
 cp -R $BUILD_DIR/config network/admin/
 echo $BUILD_DIR
-echo ls $BUILD_DIR
+ls $BUILD_DIR
 echo "LALO"
 
 cat <<EOT > $BP_DIR/export
