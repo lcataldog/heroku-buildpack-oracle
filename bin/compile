@@ -20,8 +20,9 @@ rm libclntsh.so libocci.so
 ln -s libclntsh.so.21.1 libclntsh.so
 ln -s libocci.so.21.1 libocci.so
 cp -R $BUILD_DIR/config network/admin/
-echo "LLEgamos"
-echo ls network/admin/
+echo $BUILD_DIR
+echo ls $BUILD_DIR
+echo "LALO"
 
 cat <<EOT > $BP_DIR/export
 export LD_LIBRARY_PATH=$CLIENT_BUILD_DIR/instantclient/:$BUILD_DIR/.apt/lib/x86_64-linux-gnu/${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}
