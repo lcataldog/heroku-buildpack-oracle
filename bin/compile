@@ -20,9 +20,9 @@ rm libclntsh.so libocci.so
 ln -s libclntsh.so.21.1 libclntsh.so
 ln -s libocci.so.21.1 libocci.so
 cp -R $BUILD_DIR/config network/admin/
-ls
+ls network
 echo "LALO2"
-echo $BUILD_DIR
+echo network/admin
 ls $BUILD_DIR
 echo "LALO"
 
